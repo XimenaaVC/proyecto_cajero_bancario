@@ -1,50 +1,61 @@
-// verificar usuario y contraseña 
-// si no son correctos no = alerta (incorrecto)
-// si son CORRECTOS = ingresar
-// usuarios = [];
 
-// function usuario() {
-//     let nameUsuario = document.getElementById('nombre').value
-//     let saldo = 
-// }
-var nombre = document.getElementById('InputName');
-var password = document.getElementById('InputPassword');
 
-function enviarFormulario(){
-    console.log('Enviando formulario...');
-
-    var mensajesError = [];
-
-    if(nombre.value === null || nombre.value === ''){
-        mensajesError.push('Ingresa tu nombre');
+var Accounts = [
+    {
+        name:"Mali", 
+    	saldo:200, 
+    	password:"helloworld", 
+    }, {
+        name:"Gera", 
+    	saldo:290, 
+    	password:"l33t", 
+    }, {
+        name:"Maui", 
+    	saldo:67, 
+    	password:"123", 
     }
-    if(nombre.value === null || nombre.value === ''){
-        mensajesError.push('Ingresa tu contraseña');
+];
+
+/*
+function login(form){
+    if (form.InputName.value == "Mali"){
+        if(form.InputPassword.value == "helloworld")
+        location = "usuario.html";
+        }
+        else {
+            alert("Contraseña incorrecta");
+        }
+    else if (form.InputName.value == "Maui"){
+            if(form.InputPassword.value == "helloworld")
+            location = "usuario.html";
+            }
+            else {
+                alert("Contraseña incorrecta");
+            }
     }
 
-    error.innerHTML = mensajesError.join(', ');
 
-    return false;
+Ejemplo
+
+modulo de usuario
+contraseña_____________
+boton -> funcion acceso
+
+
+funcion acceso
+if(contraseña = password-dato que tenemos alojado en el arreglos, ){
+    mensaje:"La conraseña es correcta";
+    link = usuario.html
 }
+else{
+    mensaje:"valio el acceso"
+};
 
+var account [
+    datso, por, comas
+];
+aconut.legth -> resultado 3
 
+var
 
-
-// Usuarios = [];
-
-// function Submit() {
-//     let nombre = document.getElementById('nombre').value
-//     let saldo = document.getElementById('saldo').value
-//         usuarios.push(new Usuario(nombre, saldo))
-// }
-
-// class Usuario {
-//     constructor (nombre, saldo){
-//         this.nombre = nombre;
-//         this.saldo = saldo;
-//     }
-// }
-
-// function Submit() {
-//     alert("Hola, excelente día");
-// }
+*/
