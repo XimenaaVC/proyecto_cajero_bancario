@@ -5,15 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Usuario :)</title>
-    <script src="/js/usuario.js"></script>
+    <script src="/js/login.js"></script>
     <link rel="stylesheet" href="/css/stylesheet_usuario.css">
 </head>
 <body>
     <p>
 		<input type="number" id="dinero" />
-		<input type="button" value="Extraer" id="extraer">
+		<input type="button" value="Extraer" id="extraer" onclick="extraer()">
     <input type="button" value="Deposito" id="deposito" />
-      <input type="button" value="Saldo" id="ver_saldo">
+      <input type="button" value="Saldo" id="ver_saldo" onclick="saldo()">
 	</p>
 
 	<p id="resultado"></p>
