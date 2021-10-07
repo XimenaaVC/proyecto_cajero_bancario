@@ -1,4 +1,3 @@
-
 var cuentas = [
     {
         id: 1,
