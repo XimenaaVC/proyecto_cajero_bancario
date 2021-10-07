@@ -1,20 +1,28 @@
-
-
-var Accounts = [
-    {
-        name:"Mali", 
-    	saldo:200, 
-    	password:"helloworld", 
-    }, {
-        name:"Gera", 
-    	saldo:290, 
-    	password:"l33t", 
-    }, {
-        name:"Maui", 
-    	saldo:67, 
-    	password:"123", 
+function login(form){
+    if (form.InputName.value == "Mauricio"){
+        if (form.InputPassword.value == "1234"){
+            location = "/html/usuario.html"
+        } else {
+            alert("Contraseña incorrecta")
+        }
+} else if (form.InputName.value == "Xime"){
+        if (form.InputPassword.value == "5678"){
+            location = "/html/usuario.html"
+        } else {
+            alert("Contraseña incorrecta")
+}
+} else if (form.InputName.value == "Oscar"){
+        if (form.InputPassword.value == "9101"){
+            location = "/html/usuario.html"
+        } else {
+            alert("Contraseña incorrecta")
+        }
+ } else {
+        alert("Intente nuevamente :)");
     }
-];
+}
+
+
 
 /*
 function login(form){
