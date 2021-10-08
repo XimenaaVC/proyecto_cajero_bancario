@@ -45,18 +45,35 @@ function login(form){
     }
 }
 
-function saldo() {
-    //var usuario = usuario.saldo;
-    // usuario.saldo = document.getElementById(saldo);
-    
-    //cuentas[index] = usuario;
-    alert(num);
+var usuario1 = cuentas[0].saldo
+var usuario2 = cuentas[1].saldo
+var usuario3 = cuentas[2].saldo
 
+let max = 990;
+let min = 10;
+
+function ver_saldo() {
+    alert(usuario1);
 }
 
+function retirar() {
+    
+}
 
-// usuario.saldo = document.getElementById(saldo);
+// if (document.getElementById(InputName) == "Mauricio") {
+//         if (document.getElementById(InputPassword) == "1234"){
+//             ;
+// 		} else {
+//             alert("Tenemos dificultades técnicas :(")
+//         }
+//     } else {
+//         alert("Tenemos dificultades técnicasssssss :(")
+//     }
 
+// }
+
+// usuario.saldo = document.getElementById(saldo)
+// var usuario = usuario.saldo;
 
 // cuentas[index] = usuario;
 
